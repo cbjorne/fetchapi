@@ -130,7 +130,7 @@ func getPoints(c *gin.Context) {
 	id, err := uuid.Parse(c.Param("id"))
 
 	if err != nil {
-		c.JSON(http.StatusBadRequest, "No receipt found for that ID.")
+		c.JSON(http.StatusNotFound, "No receipt found for that ID.")
 		return
 	}
 
