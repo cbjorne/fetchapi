@@ -1,3 +1,4 @@
+<style>h2,h3,h4 { border-bottom: 0; } </style>
 # Introduction
 
 The documented project below represents a first for myself. I have never written in Go before now. Given the opportunity, I figured why not. There are certainly some areas that could use improvement, project is structured in a way similar to what I am used to in .NET, not split out quite as much for the sake of simplicity.
