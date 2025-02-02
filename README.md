@@ -4,6 +4,15 @@ The documented project below represents a first for myself. I have never written
 
 The following was built in Go using Gin. Initially I was torn between Gin and Mux, but Gin felt a bit more intuitive for someone who has never programmed in Go before, so I chose and stuck with it. That being said, the only packages necessary for the project were Gin and Google's uuid.
 
+# Run Locally
+
+The following was built using the Go 1.23.4 [Install here](https://go.dev/doc/install)
+
+```
+$ git clone https://github.com/cbjorne/fetchapi.git
+$ go run fetchapi/cmd/main.go
+```
+
 # Endpoints
 
 ## Process Receipt
@@ -50,6 +59,7 @@ Gets the point value associated with the ID passed in query params
 ```http
 GET /receipts/{id}/points
 ```
+
 Request
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
