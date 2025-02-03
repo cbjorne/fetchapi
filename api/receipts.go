@@ -123,7 +123,7 @@ func processReceipt(c *gin.Context) {
 
 	receiptLink = append(receiptLink, newLink)
 
-	c.JSON(http.StatusOK, newLink)
+	c.JSON(http.StatusOK, gin.H{"id": newLink.Id})
 }
 
 func getPoints(c *gin.Context) {
