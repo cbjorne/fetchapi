@@ -17,7 +17,7 @@ $ go run fetchapi/cmd/main.go
 
 ## Process Receipt
 
-Processes receipt data JSON and returns an object with a UUID key and the point value rewarded
+Processes receipt data JSON and returns an object with a UUID key associated with the point value rewarded
 
 ```http
 POST /receipts/process
